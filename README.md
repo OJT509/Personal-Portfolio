@@ -11,3 +11,4 @@ Designed in HTML, CSS and JavaScript.
 *Changed background to match
 *Removed the border to match background
 - Prefixes added to support more browsers.
+- Changed font sizes for mobile viewing
