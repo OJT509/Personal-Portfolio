@@ -8,6 +8,6 @@ Designed in HTML, CSS and JavaScript.
 
 - Fixed border on experience section
 - Removed image not necessary for mobile experience 
-  Changed background to match
+   Changed background to match
   Removed the border to match background
 - Prefixes added to support more browsers.
