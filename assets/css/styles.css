@@ -455,28 +455,47 @@ aside,
     .right-side-skills {
         width: 100%;
     }
+
+    .main-timeline .timeline-content {
+        left: 0;
+    }
 }
 
-@media screen and (max-width: 800px){
-        .experience {
-        display: none;
+@media screen and (max-width:576px) {
+    .main-timeline .timeline-content {
+        left: 0;
+    }
+
+    .main-timeline .timeline:nth-child(even) .timeline-content {
+        padding: 90px 0 20px 20px;
+    }
+
+    .main-timeline .timeline-icon {
+        font-size: 40px;
+        line-height: 80px;
+        height: 80px;
+        width: 80px;
+    }
+
+    .main-timeline .title {
+        font-size: 18px;
     }
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-    aside h3.title {
-        font-size: 90px;
+    aside h3.title,
+    article h3.title {
+        font-size: 40px;
+    }
+
+    .card-title{
+        display: none;
     }
 
     aside p,
     #uni-tag,
-    .card-title,
     .main-timeline .title {
-        font-size: 45px;
-    }
-
-    article h3.title {
-        font-size: 60px;
+        font-size: 20px;
     }
 
     article p,
@@ -486,7 +505,7 @@ aside,
     .content,
     .main-timeline .description,
     .card-text {
-        font-size: 40px;
+        font-size: 20px;
     }
 
     .card-img-top {
@@ -496,6 +515,16 @@ aside,
     .card {
         background-color: #f5f5f5;
         border: none;
+    }
+
+    .main-timeline .timeline-content{
+        left: 0;
+        padding: 0px;
+    }
+
+    .main-timeline .timeline:nth-child(odd) .timeline-content {
+        margin: 0;
+        padding-top: 70px;
     }
 }
 
